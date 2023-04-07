@@ -1,0 +1,34 @@
+.Bict {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.Bict__downloads {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Bict__downloads button {
+  font-family: "Poppins";
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.Bict__ListAll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
